@@ -82,6 +82,7 @@ button {
 .middle {
     flex:1;
     color: #1F2937;
+    padding-bottom: 40px;
 }
 
 h2 {
@@ -99,17 +100,21 @@ h2 {
 .group {
     width: 200px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .group div {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border: 5px solid #3882F6;
     border-radius: 16px;
 }
 
 .group p {
     opacity: 80%;
+    margin: 10px;
 }
 
 h2 {
@@ -120,7 +125,7 @@ h2 {
 .quote {
     flex: 1;
     background-color: #E5E7EB;
-    padding: 80px 14%;
+    padding: 100px 25%;
 }
 
 .classy {
@@ -132,20 +137,23 @@ h2 {
 
 .name {
     text-align: right;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .bottom {
-    margin: 70px 14%;
+    margin: 100px 14%;
     background-color: #4189db;
     border-radius: 6px;
-    padding: 32px 10%;
+    padding: 60px 10%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
 }
 
 .left h3 {
+    font-size: 24px;
     margin: 0;
 }
 
